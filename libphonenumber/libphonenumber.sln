@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libphonenumber", "libphonenumber\libphonenumber.csproj", "{BF773FA2-9265-4077-A990-7C8BBE66B2CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD} = {BF773FA2-9265-4077-A990-7C8BBE66B2CD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD} = {BF773FA2-9265-4077-A990-7C8BBE66B2CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs32
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = libphonenumber\\libphonenumber.csproj
+		SccProjectName1 = libphonenumber
+		SccLocalPath1 = libphonenumber
+		SccProjectUniqueName2 = Test\\Test.csproj
+		SccProjectName2 = Test
+		SccLocalPath2 = Test
+		SccProjectUniqueName3 = TestApplication\\TestApplication.csproj
+		SccProjectName3 = TestApplication
+		SccLocalPath3 = TestApplication
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF773FA2-9265-4077-A990-7C8BBE66B2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

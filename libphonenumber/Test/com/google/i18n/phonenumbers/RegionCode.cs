@@ -40,39 +40,43 @@ using java.util;
  */
 sealed class  RegionCode {
   // Region code for global networks (e.g. +800 numbers).
-  internal static readonly String UN001  = "001";
-  internal static readonly String AD  = "AD";
-  internal static readonly String AE  = "AE";
-  internal static readonly String AM  = "AM";
-  internal static readonly String AO  = "AO";
-  internal static readonly String AQ  = "AQ";
-  internal static readonly String AR  = "AR";
-  internal static readonly String AU  = "AU";
-  internal static readonly String BR  = "BR";
-  internal static readonly String BS  = "BS";
-  internal static readonly String BY  = "BY";
-  internal static readonly String CA  = "CA";
-  internal static readonly String CH  = "CH";
-  internal static readonly String CL  = "CL";
-  internal static readonly String CN  = "CN";
-  internal static readonly String CS  = "CS";
-  internal static readonly String DE  = "DE";
-  internal static readonly String FR  = "FR";
-  internal static readonly String GB  = "GB";
-  internal static readonly String IT  = "IT";
-  internal static readonly String JP  = "JP";
-  internal static readonly String KR  = "KR";
-  internal static readonly String MX  = "MX";
-  internal static readonly String NZ  = "NZ";
-  internal static readonly String PG  = "PG";
-  internal static readonly String PL  = "PL";
-  internal static readonly String RE  = "RE";
-  internal static readonly String SG  = "SG";
-  internal static readonly String US  = "US";
-  internal static readonly String YT  = "YT";
-  internal static readonly String ZW  = "ZW";
+ internal static readonly String UN001 = "001";
+ internal static readonly String AD = "AD";
+ internal static readonly String AE = "AE";
+ internal static readonly String AM = "AM";
+ internal static readonly String AO = "AO";
+ internal static readonly String AQ = "AQ";
+ internal static readonly String AR = "AR";
+ internal static readonly String AU = "AU";
+ internal static readonly String BB = "BB";
+ internal static readonly String BR = "BR";
+ internal static readonly String BS = "BS";
+ internal static readonly String BY = "BY";
+ internal static readonly String CA = "CA";
+ internal static readonly String CH = "CH";
+ internal static readonly String CL = "CL";
+ internal static readonly String CN = "CN";
+ internal static readonly String CS = "CS";
+ internal static readonly String CX = "CX";
+ internal static readonly String DE = "DE";
+ internal static readonly String FR = "FR";
+ internal static readonly String GB = "GB";
+ internal static readonly String HU = "HU";
+ internal static readonly String IT = "IT";
+ internal static readonly String JP = "JP";
+ internal static readonly String KR = "KR";
+ internal static readonly String MX = "MX";
+ internal static readonly String NZ = "NZ";
+ internal static readonly String PG = "PG";
+ internal static readonly String PL = "PL";
+ internal static readonly String RE = "RE";
+ internal static readonly String SE = "SE";
+ internal static readonly String SG = "SG";
+ internal static readonly String US = "US";
+ internal static readonly String YT = "YT";
+ internal static readonly String ZW = "ZW";
   // Official code for the unknown region.
-  internal static readonly String ZZ  = "ZZ";
+ internal static readonly String ZZ = "ZZ";
 }
 
 }

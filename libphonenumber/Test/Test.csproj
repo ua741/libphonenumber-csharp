@@ -181,6 +181,14 @@
     <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_FR" />
     <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_GG" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_BB" />
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_CA" />
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_CC" />
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_CN" />
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_CX" />
+    <EmbeddedResource Include="com\google\i18n\phonenumbers\data\PhoneNumberMetadataProtoForTesting_HU" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

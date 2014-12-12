@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using _Locale = java.util.Locale;
+﻿using _Locale = java.util.Locale;
 
 namespace libphonenumber
 {

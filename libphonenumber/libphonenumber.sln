@@ -5,8 +5,6 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP8TestApplication", "WP8TestApplication\WP8TestApplication.csproj", "{7ECD0547-BA44-49D8-9403-9A5E3536E986}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libphonenumber", "libphonenumber\libphonenumber.csproj", "{B88344AA-D2C2-49F8-92A5-FD4DBA1D70AC}"
@@ -29,14 +27,6 @@ Global
 		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Release|ARM.ActiveCfg = Release|Any CPU
 		{1B2740DA-B9C4-4A3D-BC5B-EA4F792E26CA}.Release|x86.ActiveCfg = Release|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|ARM.ActiveCfg = Release|Any CPU
-		{3999BE9B-3FBB-4A2A-AB98-35D098DE7DBC}.Release|x86.ActiveCfg = Release|Any CPU
 		{7ECD0547-BA44-49D8-9403-9A5E3536E986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7ECD0547-BA44-49D8-9403-9A5E3536E986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ECD0547-BA44-49D8-9403-9A5E3536E986}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
